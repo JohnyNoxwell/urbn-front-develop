@@ -1,0 +1,17 @@
+section {
+  min-height: 100vh;
+  //height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.app-news {
+  .filters {
+    @include xs {
+      position: static;
+      margin-top: 25px;
+    }
+  }
+}
